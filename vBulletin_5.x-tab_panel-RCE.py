@@ -3,9 +3,12 @@ import requests
 import sys
 import os
 
-if len(sys.argv) < 3:
-        print 'Usage: python %s <dst_ip> <port>' % os.path.basename(sys.argv[0])
+if len(sys.argv) == 2:
+       sys.argv.append('80')
+elif len(sys.argv) < 3:
+        print 'Usage: python %s <dst_ip> <dst_port>' % os.path.basename(sys.argv[0])
         sys.exit()
+        
 address =(sys.argv[1], sys.argv[2])
 dst_addr=":".join(address)
 print(dst_addr)
