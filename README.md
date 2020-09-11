@@ -5,3 +5,13 @@ Affected System
 vBulletin 5.5.4 ~ 5.6.2
 
 vBulletin 5.x Widget_tabbedcontainer_tab_panel RCE Vuln Test script
+
+Usage>
+
+    python vBulletin_5.x-tab_panel-RCE.py <dst_ip> <dst_port> (user defined port)
+    
+    python vBulletin_5.x-tab_panel-RCE.py <dst_ip> (default : 80/tcp)
+    
+Script based on Python2
+
+Just using Vuln Test for your System
