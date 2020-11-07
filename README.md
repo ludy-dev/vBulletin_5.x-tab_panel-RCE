@@ -12,6 +12,6 @@ Usage>
     
     python vBulletin_5.x-tab_panel-RCE.py <dst_ip> (default : 80/tcp)
     
-Script based on Python2
+Script is working on Python3 (2020.11.07 updated)
 
 Just using Vuln Test for your System
